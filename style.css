@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
+    /* background-color: rgb(30, 83, 83); */
 }
 html,body{
     width: 100%;
@@ -38,10 +39,10 @@ html,body{
 }
 
 #nav{
-    position:fixed; /*jb tk ye prop true h tb tk underline effect nhi aa paiga "BlockHealth" pr */
+    /* position:fixed; jb tk ye prop true h tb tk underline effect nhi aa paiga "BlockHealth" pr */
     padding: 1vw 5vw;
     /* height: 6   0px; */
-    width: 100%;
+    width: auto;
     /* height: 600px; */
     display: flex;
     align-items: center;
@@ -130,7 +131,7 @@ html,body{
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-    margin-top: 15.05%;
+    margin-top: 5.05%;
 }
 #block p{
     margin-top: -100px;
@@ -190,21 +191,21 @@ html,body{
 #onespan{
     width: 80px;
     height: 40px;
-    background-image: url(etactics-inc-2qiXVelOgyw-unsplash.jpg);
+    background-image: url(/imgFiles/etactics-inc-2qiXVelOgyw-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
 #twospan{
-    width: 120px;
-    height: 50px;
-    background-image: url(myriam-zilles-KltoLK6Mk-g-unsplash.jpg);
+    width: 90px;
+    height: 40px;
+    background-image: url(/imgFiles/myriam-zilles-KltoLK6Mk-g-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
 #threespan{
     width: 70px;
     height: 40px;
-    background-image: url(traxer-Kb4pzjYleTg-unsplash.jpg);
+    background-image: url(/imgFiles/traxer-Kb4pzjYleTg-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -381,7 +382,7 @@ html,body{
     align-items: center;
     flex-direction: column;
 }
-#ftext button{
+/* #ftext button{
     margin-top: 10px;
     padding: 1vw 1.3vw;
     font-size: .9vw;
@@ -390,7 +391,7 @@ html,body{
      border: 1px solid rgb(83, 74, 74);
      background-color: white;
      color: rgb(59, 52, 52);
-}
+} */
 #login{
     align-items: center;
     padding: 0px 20px;
@@ -409,10 +410,14 @@ button{
 button:hover {
     box-shadow: 0 0 5px lightseagreen,
     0 0 25px lightseagreen, 0 0 50px lightseagreen, 0 0 100px lightseagreen, 0 0 200px lightseagreen;
+    transition: 1.5s ease-in-out;
 }
+/* button:hover:after {
+    transition: 1.5s ease-in-out;
+} */
 
 /*(code starts here) Hover underline animation on "BlockHeakth" navbar text */
-/* #centertag {
+#centertag {
     display: inline-block;
     position: relative;
     color: #000000;
@@ -434,7 +439,7 @@ button:hover {
 #centertag:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-} */
+}
 
 /*(code ends here) Hover underline animation on "BlockHeakth" navbar text */
 
